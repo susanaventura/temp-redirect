@@ -1,0 +1,9 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Redirecting…</title>
+<meta name="robots" content="noindex">
+<script>
+  // Forwards the bank's response (code, state) to the locally running app.
+  location.replace('http://localhost:5173/api/auth/callback' + location.search);
+</script>
+<noscript>JavaScript is required to finish connecting the bank.</noscript>
